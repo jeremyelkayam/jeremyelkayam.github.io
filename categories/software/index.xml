@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on Jeremy Elkayam</title>
+    <link>http://www.jeremyelkayam.com/categories/software/</link>
+    <description>Recent content in software on Jeremy Elkayam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Dec 2018 18:02:14 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.jeremyelkayam.com/categories/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Food Fight</title>
+      <link>http://www.jeremyelkayam.com/projects/tower-defense/</link>
+      <pubDate>Thu, 13 Dec 2018 18:02:14 -0500</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/projects/tower-defense/</guid>
+      <description>Food Fight was a 2D tower-defense video game created for the class Intro to Video Game Design and Development at William &amp;amp; Mary. The game features a 4 different tower types with branching upgrades for a total of 16 towers, 3 different types of enemies with procedural variation in stats, a money system, and procedurally generated maps. All of the game&amp;rsquo;s artwork was created by me. I also did a lot of programming work on the project, creating all of the enemy unit systems, and helping to debug the map creation engine.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jeremy Elkayam</title>
+    <link>http://www.jeremyelkayam.com/</link>
+    <description>Recent content on Jeremy Elkayam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Feb 2020 17:19:11 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.jeremyelkayam.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I Made a Website</title>
+      <link>http://www.jeremyelkayam.com/posts/first-post-on-website/</link>
+      <pubDate>Thu, 13 Feb 2020 17:19:11 -0500</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/posts/first-post-on-website/</guid>
+      <description>Hi, it&amp;rsquo;s me, Jeremy Elkayam. I made a website because I figured it was time I had one. It has a blog, because I wanted it to have a blog. I like to write about things that I do, so I&amp;rsquo;m going to do that on this blog.
+Where I Started Because I like to do things out of order, the first thing I did was register a domain name. You don&amp;rsquo;t need to do that first.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>http://www.jeremyelkayam.com/about/</link>
+      <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/about/</guid>
+      <description>I&amp;rsquo;m a 22-year-old computer geek with a lot of different interests. I&amp;rsquo;ve taken to labeling myself as a &amp;ldquo;thing maker&amp;rdquo; because, while extremely broad, it&amp;rsquo;s a nice catch-all for the things in my life that I&amp;rsquo;m passionate about. I have a BS in computer science and I get paid to develop software, but I also make apps and games on my own time for no reason other than personal fulfillment. I&amp;rsquo;ve dabbled in almost every medium of digital art for one project or another.</description>
+    </item>
+    
+    <item>
+      <title>Food Fight</title>
+      <link>http://www.jeremyelkayam.com/projects/tower-defense/</link>
+      <pubDate>Thu, 13 Dec 2018 18:02:14 -0500</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/projects/tower-defense/</guid>
+      <description>Food Fight was a 2D tower-defense video game created for the class Intro to Video Game Design and Development at William &amp;amp; Mary. The game features a 4 different tower types with branching upgrades for a total of 16 towers, 3 different types of enemies with procedural variation in stats, a money system, and procedurally generated maps. All of the game&amp;rsquo;s artwork was created by me. I also did a lot of programming work on the project, creating all of the enemy unit systems, and helping to debug the map creation engine.</description>
+    </item>
+    
+  </channel>
+</rss>

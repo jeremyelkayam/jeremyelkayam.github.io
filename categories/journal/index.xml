@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>journal on Jeremy Elkayam</title>
+    <link>http://www.jeremyelkayam.com/categories/journal/</link>
+    <description>Recent content in journal on Jeremy Elkayam</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 13 Feb 2020 17:19:11 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.jeremyelkayam.com/categories/journal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I Made a Website</title>
+      <link>http://www.jeremyelkayam.com/posts/first-post-on-website/</link>
+      <pubDate>Thu, 13 Feb 2020 17:19:11 -0500</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/posts/first-post-on-website/</guid>
+      <description>Hi, it&amp;rsquo;s me, Jeremy Elkayam. I made a website because I figured it was time I had one. It has a blog, because I wanted it to have a blog. I like to write about things that I do, so I&amp;rsquo;m going to do that on this blog.
+Where I Started Because I like to do things out of order, the first thing I did was register a domain name. You don&amp;rsquo;t need to do that first.</description>
+    </item>
+    
+  </channel>
+</rss>
