@@ -6,10 +6,37 @@
     <description>Recent content in Categories on Jeremy Elkayam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Feb 2020 17:19:11 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2020 15:37:51 -0500</lastBuildDate>
     
 	<atom:link href="http://www.jeremyelkayam.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>comedy</title>
+      <link>http://www.jeremyelkayam.com/categories/comedy/</link>
+      <pubDate>Mon, 24 Feb 2020 15:37:51 -0500</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/categories/comedy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>http://www.jeremyelkayam.com/categories/travel/</link>
+      <pubDate>Mon, 24 Feb 2020 15:37:51 -0500</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/categories/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video</title>
+      <link>http://www.jeremyelkayam.com/categories/video/</link>
+      <pubDate>Mon, 24 Feb 2020 15:37:51 -0500</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/categories/video/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>coding</title>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Jeremy Elkayam</title>
-    <link>http://www.jeremyelkayam.com/posts/</link>
-    <description>Recent content in Posts on Jeremy Elkayam</description>
+    <title>comedy on Jeremy Elkayam</title>
+    <link>http://www.jeremyelkayam.com/categories/comedy/</link>
+    <description>Recent content in comedy on Jeremy Elkayam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 24 Feb 2020 15:37:51 -0500</lastBuildDate>
     
-	<atom:link href="http://www.jeremyelkayam.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.jeremyelkayam.com/categories/comedy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,16 +18,6 @@
       
       <guid>http://www.jeremyelkayam.com/posts/show-and-trip/</guid>
       <description>So I&amp;rsquo;ve had a very busy past few days. Everything about my weekend has had to do with the sketch comedy group that I&amp;rsquo;m a part of here at college, called 7th Grade Sketch Comedy. Sometime soon I&amp;rsquo;ll do a deeper dive into why exactly I&amp;rsquo;ve put so much of myself into sketch comedy over the past 3 1/2 years of school, but for now it&amp;rsquo;s important to know that I collaborate on sketch shows with these people and we also make videos together.</description>
-    </item>
-    
-    <item>
-      <title>I Made a Website</title>
-      <link>http://www.jeremyelkayam.com/posts/first-post-on-website/</link>
-      <pubDate>Thu, 13 Feb 2020 17:19:11 -0500</pubDate>
-      
-      <guid>http://www.jeremyelkayam.com/posts/first-post-on-website/</guid>
-      <description>Hi, it&amp;rsquo;s me, Jeremy Elkayam. I made a website because I figured it was time I had one. It has a blog, because I wanted it to have a blog. I like to write about things that I do, so I&amp;rsquo;m going to do that on this blog.
-Where I Started Because I like to do things out of order, the first thing I did was register a domain name. You don&amp;rsquo;t need to do that first.</description>
     </item>
     
   </channel>
