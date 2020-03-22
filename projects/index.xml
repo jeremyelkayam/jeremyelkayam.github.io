@@ -6,10 +6,19 @@
     <description>Recent content in Projects on Jeremy Elkayam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Dec 2018 18:02:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2020 00:00:00 -0500</lastBuildDate>
     
 	<atom:link href="http://www.jeremyelkayam.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Go To The Toilet</title>
+      <link>http://www.jeremyelkayam.com/projects/gotoilet/</link>
+      <pubDate>Wed, 04 Mar 2020 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/projects/gotoilet/</guid>
+      <description>Go To The Toilet is an animated music video for the song Go To The Toilet by Dave Bulmer. I didn&amp;rsquo;t make the song, but everything you see in the video was drawn and animated by me. I worked on this video during my free time at university from April 2019 to March 2020. I wasn&amp;rsquo;t at school over the summer of 2019 (mid-May to mid-August), so I wasn&amp;rsquo;t working on it then.</description>
+    </item>
     
     <item>
       <title>Food Fight</title>

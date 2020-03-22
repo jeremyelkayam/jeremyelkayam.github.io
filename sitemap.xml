@@ -3,17 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.jeremyelkayam.com/categories/</loc>
-    <lastmod>2020-02-24T15:37:51-05:00</lastmod>
+    <loc>http://www.jeremyelkayam.com/categories/animation/</loc>
+    <lastmod>2020-03-04T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.jeremyelkayam.com/categories/comedy/</loc>
-    <lastmod>2020-02-24T15:37:51-05:00</lastmod>
+    <loc>http://www.jeremyelkayam.com/categories/art/</loc>
+    <lastmod>2020-03-04T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jeremyelkayam.com/categories/</loc>
+    <lastmod>2020-03-04T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jeremyelkayam.com/projects/gotoilet/</loc>
+    <lastmod>2020-03-04T00:00:00-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.jeremyelkayam.com/</loc>
+    <lastmod>2020-03-04T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jeremyelkayam.com/projects/</loc>
+    <lastmod>2020-03-04T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jeremyelkayam.com/categories/software/</loc>
+    <lastmod>2020-03-04T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jeremyelkayam.com/categories/video/</loc>
+    <lastmod>2020-03-04T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.jeremyelkayam.com/categories/comedy/</loc>
     <lastmod>2020-02-24T15:37:51-05:00</lastmod>
   </url>
   
@@ -39,11 +69,6 @@
   
   <url>
     <loc>http://www.jeremyelkayam.com/categories/travel/</loc>
-    <lastmod>2020-02-24T15:37:51-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.jeremyelkayam.com/categories/video/</loc>
     <lastmod>2020-02-24T15:37:51-05:00</lastmod>
   </url>
   
@@ -78,27 +103,12 @@
   </url>
   
   <url>
-    <loc>http://www.jeremyelkayam.com/categories/art/</loc>
-    <lastmod>2018-12-13T18:02:14-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://www.jeremyelkayam.com/projects/tower-defense/</loc>
     <lastmod>2018-12-13T18:02:14-05:00</lastmod>
   </url>
   
   <url>
     <loc>http://www.jeremyelkayam.com/categories/games/</loc>
-    <lastmod>2018-12-13T18:02:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.jeremyelkayam.com/projects/</loc>
-    <lastmod>2018-12-13T18:02:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.jeremyelkayam.com/categories/software/</loc>
     <lastmod>2018-12-13T18:02:14-05:00</lastmod>
   </url>
   
