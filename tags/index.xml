@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Jeremy Elkayam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Feb 2020 15:37:51 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 15:47:52 -0400</lastBuildDate>
     
 	<atom:link href="http://www.jeremyelkayam.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>life update</title>
       <link>http://www.jeremyelkayam.com/tags/life-update/</link>
-      <pubDate>Mon, 24 Feb 2020 15:37:51 -0500</pubDate>
+      <pubDate>Thu, 13 Aug 2020 15:47:52 -0400</pubDate>
       
       <guid>http://www.jeremyelkayam.com/tags/life-update/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>thoughts</title>
+      <link>http://www.jeremyelkayam.com/tags/thoughts/</link>
+      <pubDate>Thu, 13 Aug 2020 15:47:52 -0400</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/tags/thoughts/</guid>
       <description></description>
     </item>
     

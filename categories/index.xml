@@ -6,10 +6,37 @@
     <description>Recent content in Categories on Jeremy Elkayam</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Mar 2020 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 15:47:52 -0400</lastBuildDate>
     
 	<atom:link href="http://www.jeremyelkayam.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>bullshit</title>
+      <link>http://www.jeremyelkayam.com/categories/bullshit/</link>
+      <pubDate>Thu, 13 Aug 2020 15:47:52 -0400</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/categories/bullshit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fashion</title>
+      <link>http://www.jeremyelkayam.com/categories/fashion/</link>
+      <pubDate>Thu, 13 Aug 2020 15:47:52 -0400</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/categories/fashion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>games</title>
+      <link>http://www.jeremyelkayam.com/categories/games/</link>
+      <pubDate>Thu, 13 Aug 2020 15:47:52 -0400</pubDate>
+      
+      <guid>http://www.jeremyelkayam.com/categories/games/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>animation</title>
@@ -89,15 +116,6 @@
       <pubDate>Thu, 13 Feb 2020 17:19:11 -0500</pubDate>
       
       <guid>http://www.jeremyelkayam.com/categories/journal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>games</title>
-      <link>http://www.jeremyelkayam.com/categories/games/</link>
-      <pubDate>Thu, 13 Dec 2018 18:02:14 -0500</pubDate>
-      
-      <guid>http://www.jeremyelkayam.com/categories/games/</guid>
       <description></description>
     </item>
     
