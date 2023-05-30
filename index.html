@@ -1,0 +1,389 @@
+<!-- thank you to R. Ansems for providing code reference!!
+forgive any bad code... my university did not offer a web dev class so I'm still learning!-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Jeremy Elkayam </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Oswald:700,300|Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/mainstyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<!-- Smooth scroll */ -->
+	<script>
+		$(function() {
+			$('a[href*=#]:not([href=#])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+					var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+					if (target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top-50
+						}, 1000);
+						return false;
+					}
+				}
+			});
+		});
+	</script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+				<a class="navbar-brand" href="#">Jeremy</a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#home">Home</a></li>
+					<li><a href="#intro">Introduction</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="jumbotron" id="home">
+		<div class="container text-center">
+			<br>
+			<h1 class="home">Jeremy Elkayam</h1>      
+			<h4 class="home">
+				Software Engineer
+			</h4>
+		</div>
+	</div>
+
+	<div class="container-fluid text-center" id="intro">
+		<h2>Introduction</h2><br>
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+			<img src="images/coolest_style.jpg" class="img-responsive" style="width:100%" alt="Image" id="profile">
+		</div>
+	</div>
+
+	<div class="container-fluid text-center" id="intro2">
+		<div class="col-sm-3"></div>
+		<div class="col-sm-6">
+			<p>
+			Hi! I'm Jeremy, a DevOps Engineer at CGI Federal, currently based out of Arlington, VA. 
+			I've been programming ever since I discovered LEGO Mindstorms and Scratch at age 10, but my 
+			computer science began when I was 15. In high school, I initially struggled to adjust, but when 
+			I decided to take an intro computer science class in my sophomore year, I suddenly felt in my 
+			element for the first time. I was in CS classes every semester from then until I graduated college
+			in 2020, <a href="http://www.wm.edu/" target="_blank">William & Mary</a>.
+			<br><br>
+			I do a lot of DevOps for my day job, but my passion is in software. I've made loads of games and 
+			other projects on the side!
+			</p>
+		</div>
+	</div>
+
+	<div class="container-fluid text-center" id="skills">
+		<div class="row">
+			<h2>Skills</h2>
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4">
+				<h3>Technical Skills</h3>
+				<p>
+					◦ Professional knowledge of C++, Python, Java and PowerShell.<br>
+					◦ Academic knowledge of HTML, C#, and C.<br>
+					◦ Extensive OS-level knowledge from systems level programming and operating systems classes.<br>
+					◦ Proficient in Final Cut Pro X, Adobe Photoshop, Animate, and Esri ArcGIS (desktop and Pro).<br>
+					◦ Professional experience using version control software Git, including Git/Jenkins integration for automated software build.<br>
+					◦ Professional experience working with Android and iOS.<br>
+					◦ College courses taken include game development, software development, applied cybersecurity, operating systems.<br>
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<h3>General Skills</h3>
+				<p>
+					◦ Technical documentation (have written over [CHECK HOW MANY JEREMY] pages of documentation at CGI Federal position)<br>
+					◦ Regularly communicate &amp; boil down technical information via brownbag presentations<br>
+					◦ Extensive experience in video editing and digital art, and limited experience in music trackers.<br>
+					◦ Experience in creating digital maps of real and fictional locations using GIS tools.<br>
+				</p>
+			</div>
+		</div>
+		<div class="col-sm-5"></div>
+		<div class="col-sm-2">
+			<a href="files/elkayam_resume.pdf" target="_blank"><h3 id="resume">Resume</h3></a></div>
+		</div>
+
+		<!-- Projects Pictures -->
+		<div class="container-fluid text-center" id="projects">    
+			<h2>Projects</h2>
+			<div class="row">
+				<div class="col-sm-3"></div>
+
+				<div class="col-sm-3">
+					<h3>Trogdor for GBA </h3>
+					<a data-toggle="modal" data-target="#trogdor" id="modal-button">
+						<img src="images/trogba.gif" class=".img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+
+				<div class="col-sm-3">
+					<h3>Warriors</h3>
+					<a data-toggle="modal" data-target="#warriors" id="modal-button">
+						<img src="images/warriors.png" class=".img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-sm-3"></div>
+
+
+				<div class="col-sm-3">
+					<h3>Food Fight</h3>
+					<a data-toggle="modal" data-target="#foodfight" id="modal-button">
+						<img src="images/foodfight.PNG" class=".img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+
+				<div class="col-sm-3">
+					<h3>Entella</h3>
+					<a data-toggle="modal" data-target="#entella" id="modal-button">
+						<img src="images/entella.png" class=".img-responsive" style="width:100%" alt="Image">
+					</a>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Modals -->
+		<div id="trogdor" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">×</button>
+						<h3 class="modal-title">Trogdor for Game Boy Advance</h3>
+					</div>
+					<div class="modal-body">
+						<div class="video-container">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/d9pXa4wlA8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<h5>
+							Platforms: Game Boy Advance <br>
+							Language: C++<br>
+							Framework: Butano<br>
+							Winter 2022-Spring 2023
+						</h5>
+						<p>
+							A port of the 2003 Flash game TROGDOR! to the Game Boy Advance. 
+							In this game, you control the mighty dragon TROGDOR the BURNiNATOR, and squish the 
+							peasants of the land in order to achieve BURNINATION. With your fire-breathing powers, 
+							you can destroy the thatched-roof cottages and complete the game's 100 levels. 
+							But be careful! Archers and knights are sworn to protect the countryside and will kill Trogdor if given a chance.
+							<br><br>
+							My port of the game contains everything from the original Flash game, recreated in C++ using Butano (a homebrew GBA game engine).
+							I also added some new features including:
+							<ul>
+								<li>saving your progress</li>
+								<li>a tutorial</li>
+								<li>the TROGHAMMER, a new, more powerful enemy inspired by <a href="https://trogdorboardgame.homestarrunner.com/">the board game version of Trogdor</a>. </li>
+								<li>adjustable options such as volume and difficulty parameters</li>
+							</ul>
+						</p><br>
+						<div class="btn-group btn-group-justified">
+							<a href="https://jeremyelkayam.itch.io/trogba" target="_blank" class="btn btn-primary">Download (itch.io)</a>
+							<a href="https://github.com/jeremyelkayam/trogba" target="_blank" class="btn btn-primary">Source code (GitHub)</a>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="warriors" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title">Warriors</h3>
+					</div>
+					<div class="modal-body">
+						<div class="video-container">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/Ile8lKRhG1w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<h5>
+							Platforms: PC <br>
+							Language: C++<br>
+							Framework: SFML<br>
+							Winter 2020
+						</h5>
+						<p>
+							In late 2020, I was really bored and decided to remake Warriors, a game that my younger brother and I had created in Scratch when we were in our young teens. We had originally made the game in Scratch and styled it after an Atari 2600 game. I made this remake in SFML because I'd used it for my game dev class two years earlier. 
+							<br><br>
+							This is a game where you move around a field and kill baddies as more and more come at you. Occasionally, health potions appear on the field. Once per game, a bomb will appear that kills all enemies on screen, and a ring will appear that drains the life of enemies you kill and restores it to you. As you play, more enemy warriors appear and fewer health potions appear. I also coded my own key bindings, which was kinda tough but I was proud of it. 
+							<br><br>
+							Since I'd already done it in the Atari style, I decided to model my version after the machine they played games on across the pond in the late 70s/early 80s, the ZX Spectrum. I'm particularly proud of how I mimicked the Spectrum's color-clash effect. I also added support for up to 8 players (our original Scratch version only had 4).						</p><br>
+						<div class="btn-group btn-group-justified">
+							<a href="https://github.com/jeremyelkayam/Warriors" target="_blank" class="btn btn-primary">Source code (GitHub)</a>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="foodfight" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title">Productivity Tracker</h3>
+					</div>
+					<div class="modal-body">
+						<div class="video-container">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/3TLpcLwLssI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<h5>
+							Platform: PC<br>
+							Language: C++<br>
+							Framework: SFML<br>
+							Winter 2018
+						</h5>
+						<p>
+							This was my final project for Intro to Game Design and Game Development, which I took at William & Mary in fall 2018. 
+							We made a functional, junk food-themed tower defense game as 4 students whose only C++ experience was remaking Pong. And we did it in only 2 1/2 months! 
+							I wish we'd gotten to polish it up a lot more, but I'm proud of what we made. We programmed the whole thing soup-to-nuts and did our own art as well.
+							<br><br>
+							This game has 4 different types of towers, 3 types of enemies, and 3 tiers of upgrades for each tower (e.g. cola -> energy drink),
+							with the option of upgrading between 2 separate types of tower for the final level (e.g. energy drink -> slushie OR gravy).
+							Additionally, you can upgrade a tower's individual stats (e.g. range, rate of fire, etc). The maps and waves of enemies are 
+							also procedurally generated based on parameters the user provides. 
+							<br><br>
+							We were really ambitious with this game, and even though we didn't get it as polished as we'd originally intended, 
+							we worked really hard to get a basic version of all of our ideas in there, which I'm happy with. 
+							This was also my first time making my own art for a game (I did the art for all of the towers and enemies). 
+							It's pretty rough but I think I made it decently expressive.
+						</p><br>
+						<div class="btn-group btn-group-justified">
+							<a href="https://github.com/andrewkatson/TheBTeam" target="_blank" class="btn btn-primary">Source code (GitHub)</a>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="entella" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title">Entella</h3>
+					</div>
+					<div class="modal-body">
+						<div class="video-container">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/2twoJZZyyIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						</div>
+						<h5>
+							Platform: Android<br>
+							Language: Java<br>
+							Spring 2019
+						</h5>
+						<p>
+							This was the final project for my Entrepreneurship in Computer Science class, which I took in the spring of my junior year at W&M. I worked on coding this with 3 other students.
+							<br><br>
+							Have you ever experienced the tedium of taking attendance at the beginning of a class or other event? 
+							How about having to sit around for the first 5-10 minutes as the instructor goes through the entire class roster?
+							We created Entella to solve this problem.
+							<br><br>
+							Entella uses facial recognition to check the attendance of an entire room of people with a single photograph.
+							As a host/instructor, you can check attendance records for your entire class, and as a student you can check
+							the records to make sure your attendance is recorded properly.
+						</p><br>
+						<div class="btn-group btn-group-justified">
+							<!-- <a href="https://github.com/jeremyelkayam/entella" target="_blank" class="btn btn-primary">GitHub</a> -->
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div> 
+
+		<div class="container-fluid text-center" id="minor-projects">
+			<h2>Other Projects</h2>
+
+			<!-- Line One -->
+			<div class="row">
+
+				<div class="col-sm-2"></div>
+
+				<div class="col-sm-2">
+					<h4><b>Go To The Toilet</b></h4>
+					<h6> May 2019-March 2020</h6>
+					<img src="images/goto_toilet.PNG" class=".img-responsive" style="width:100%" alt="Image">
+					<h5><a href="https://youtu.be/fn1L_qTlKt8" target="_blank" id="project-link">YouTube</a></h5>
+					<h6>Animated music video</h6>
+					<p>During my senior year of college, I'd hole up in the media center and work on this whenever I had a free minute. I used Adobe Animate to create the music video and utilized a little bit of Adobe's ActionScript language.</p>
+					<br>
+				</div>
+
+				<div class="col-sm-2">
+					<h4><b>SFML Pong</b></h4>
+					<h6>Intro Game Development Project<br>September 2018</h6>
+					<img src="images/pong.gif" class=".img-responsive" style="width:100%" alt="Image">
+					<h5><a href="https://github.com/jeremyelkayam/SFML_Pong" target="_blank" id="project-link">GitHub</a> / <a href="https://youtu.be/QnOAkR0QIL4" target="_blank" id="project-link">YouTube</a></h5>
+					<h6> C++ - SFML </h6>
+					<p>Initial project for fall 2018 game dev class, to get used to developing using C++ and SFML. I'm proud of how much I was able to polish this one, given I had only 3 weeks and started with no knowledge of game dev or SFML, and only limited experience with C++!</p>
+					<br>
+				</div>
+				<div class="col-sm-2"></div>
+			</div>
+			<!-- <a href="https://github.com/jeremyelkayam?tab=repositories" target="_blank"><h3 id="resume">More Projects</h3></a></div> -->
+		</div>
+	</div>
+
+	<div class="container-fluid text-center" id="contact">
+		<h2>Contact Me</h2>
+			<h4>
+				Jeremy Elkayam<br>
+				jne@jeremyelkayam.com<br>
+				347-536-6009
+			</h4>
+			<h5 id="small">Links</h5>
+			<div class="row">
+				<div class="col-sm-5"></div>
+				<div class="col-sm-2">
+					<div class="social">
+						<a href="https://github.com/jeremyelkayam" title="github.com/jeremyelkayam" target="_blank" style="left: 0%; right: 66%">
+							<i class="zmdi zmdi-github-alt"></i>
+						</a>
+						<a href="mailto:jne@jeremyelkayam.com" title="jne@jeremyelkayam.com" target="_blank" style="left: 33%; right: 33%">
+							<i class="zmdi zmdi-email"></i>
+						</a>
+						<a href="https://linkedin.com/in/jeremy-elkayam" title="linkedin" target="_blank" style="left: 66%; right: 0%">
+							<i class="zmdi zmdi-linkedin"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+	</div>
+</body>
+</html>
