@@ -441,5 +441,14 @@ forgive any bad code... my university did not offer a web dev class so I'm still
 				</div>
 			</div>
 	</div>
+
+	<script>
+		//Quick fix to close any embedded YouTube videos when you close a modal.
+		// Taken from : https://stackoverflow.com/a/52315492
+		$('.modal').on('hide.bs.modal', function() {
+			var memory = $(this).html();
+			$(this).html(memory);
+		})
+	</script>
 </body>
 </html>
